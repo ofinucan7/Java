@@ -18,7 +18,7 @@ public class taxCalculator {
 		final double six = 0.35;
 		final double seven = 0.37;
 		
-		System.out.println("Enter how much you pay");
+		System.out.println("Enter how much you make.");
 		income = keyboard.nextDouble();
 		//Determining what your tax bracket user is under
 		if (income => 523601) {
@@ -45,31 +45,31 @@ public class taxCalculator {
 		
 		if (compare == 1) {
 			tax = one * income; //calculates the amount of tax owed for the respecive tax bracket
-			System.out.println("You are going to owe: " + tax + " in taxes this year.");
+			System.out.println("You are going to owe: $" + tax + " in taxes this year.");
 			
 		} else if (compare == 2) {
 			tax = 995 + ((income-9950) * two); //calculates the amount of tax owed for the respecive tax bracket
-			System.out.println("You are going to owe: " + tax + " in taxes this year.");
+			System.out.println("You are going to owe: $" + tax + " in taxes this year.");
 			
 		} else if (compare == 3) {
 			tax = 4664 + ((income-40525) * three); //calculates the amount of tax owed for the respecive tax bracket
-			System.out.println("You are going to owe: " + tax + " in taxes this year.");
+			System.out.println("You are going to owe: $" + tax + " in taxes this year.");
 			
 		} else if (compare == 4) {
 			tax = 14741 + ((income-86375) * four); //calculates the amount of tax owed for the respecive tax bracket
-			System.out.println("You are going to owe: " + tax + " in taxes this year.");
+			System.out.println("You are going to owe: $" + tax + " in taxes this year.");
 			
 		} else if (compare == 5) {
 			tax = 33603 + ((income-164925) * five); //calculates the amount of tax owed for the respecive tax bracket
-			System.out.println("You are going to owe: " + tax + " in taxes this year.");
+			System.out.println("You are going to owe: $" + tax + " in taxes this year.");
 			
 		} else if (compare == 6) {
 			tax = 47843 + ((income - 209425) * six); //calculates the amount of tax owed for the respecive tax bracket
-			System.out.println("You are going to owe: " + tax + " in taxes this year.");
+			System.out.println("You are going to owe: $" + tax + " in taxes this year.");
 			
 		} else {
 			tax = 157804.25 + ((income-523600) * seven); //calculates the amount of tax owed for the respecive tax bracket
-			System.out.println("You are going to owe: " + tax + " in taxes this year.");
+			System.out.println("You are going to owe: $" + tax + " in taxes this year.");
 			
 		} 
 	}

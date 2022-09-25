@@ -4,6 +4,7 @@ I’m interested in:
 - Cyber Security
 - Artificial Intelligence
 - Bug Finding
+- Generally learning new languages
 
 Feel free to reach out at ofinucan7@gmail.com.
 <!---
